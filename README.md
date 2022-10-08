@@ -1,5 +1,4 @@
 # ToDoApp
-Django To Do List App (function based views)
+Django To Do List App (class based views)
 
-<a href="https://www.youtube.com/watch?v=4RWFvXDUmjo">reference</a>
-
+<a href="https://www.youtube.com/watch?v=llbtoQTt4qw">reference</a>
