@@ -1,0 +1,8 @@
+<h3>Formulário de Tarefa</h3>
+<a href="{% url 'tasks' %}">Voltar</a>
+
+<form method="POST" action="">
+    {%csrf_token%}
+    {{form.as_p}}
+    <input type="submit" name="Enviar">
+</form>
