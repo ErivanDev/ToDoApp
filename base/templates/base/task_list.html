@@ -8,6 +8,11 @@
 <h1>Minha lista de fazeres {{count}}</h1>
 <a href="{% url 'task-create' %}">Adicionar Tarefa</a>
 
+<form method="GET">
+    <input type="text" name="search-area" value="{{search_input}}">
+    <input type="submit" name="Procurar">
+</form>
+
 <table>
     <tr>
         <th>Item</th>
